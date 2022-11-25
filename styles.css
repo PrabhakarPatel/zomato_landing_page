@@ -538,7 +538,7 @@
 .explore__more {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     width: 100%;
@@ -548,7 +548,7 @@
 .text__container {
     font-size: 25px;
     font-weight: 400;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     margin-bottom: 20px;
 }
 
