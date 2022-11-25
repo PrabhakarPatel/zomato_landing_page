@@ -36,7 +36,7 @@
     border-radius: 100%;
     height: 30px;
     width: 30px;
-    /* border: 1px solid white; */
+    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@
 
 .input__container__location {
     width: 35%;
-    border-right: 1px solid grey;
+    border-right: 2px solid grey;
 }
 
 .input__container__search {
@@ -175,7 +175,7 @@
     background-image: url('./images/collection3.jpg');
 }
 
-/* Shift + Alt + f */
+
 
 .card4 {
     background-image: url('./images/collection4.jpg');
@@ -416,7 +416,8 @@
 .footer__section_logos {
     width: 100%;
 }
-.disclamer{
+
+.disclamer {
     width: 90%;
     margin: auto;
     color: gray;
@@ -504,21 +505,80 @@
         width: 80%;
     }
 }
-@media only screen and (max-width:900px){
-    .navigation__container{
-        grid-template-columns: repeat(3,1fr);
+
+@media only screen and (max-width:900px) {
+    .navigation__container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-@media only screen and (max-width:600px){
-    .navigation__container{
-        grid-template-columns: repeat(2,1fr);
+
+@media only screen and (max-width:600px) {
+    .navigation__container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
-@media only screen and (max-width:400px){
-    .navigation__container{
-        grid-template-columns: repeat(1,1fr);
+
+@media only screen and (max-width:400px) {
+    .navigation__container {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .footer_section1{
+
+    .footer_section1 {
         justify-content: center;
     }
+}
+
+.hero__section__input__container i {
+    color: #ff7e8b;
+    cursor: pointer;
+}
+
+.explore__more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.text__container {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.explore__container {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+}
+
+.explore__option {
+    padding: 6px;
+    border: none;
+    outline: none;
+    width: 90%;
+    color: gray;
+}
+
+.explore__container h3 {
+    padding: 6px;
+    font-weight: 300;
+    width: 90%;
+    color: black;
+}
+
+.explore__container i {
+    color: black;
+    cursor: pointer;
 }
