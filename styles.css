@@ -453,7 +453,9 @@
         flex-direction: column;
         background-color: transparent;
         width: 100%;
-
+    }
+    .hero__section__input__container i {
+        display: none; 
     }
 
     .input__container__location,
